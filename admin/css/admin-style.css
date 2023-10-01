@@ -1,0 +1,71 @@
+
+.school_dasboard{
+	 background: #fff;
+
+  width: 98%;
+
+  float: left;
+
+ padding:15px 0px;
+ 
+}
+
+
+
+
+.schooltitle{
+float:left;
+width:98%;
+border:1px solid #E9E9E9;
+padding:10px 0px 10px 0px;
+margin:0px 10px 0px 10px;
+text-align:center;
+
+}
+.leftpart{
+float:left;
+width: 45%;
+border:1px solid #E9E9E9;
+padding:20px 0px 20px 0px;
+margin:0px 0px 0px 30px;
+min-height:100px;
+text-align:center;
+}
+.rightpart{
+float:right;
+width: 45%;
+border:1px solid #E9E9E9;
+padding:20px 0px 20px 0px;
+margin:0px 30px;
+height:100px;
+text-align:center;
+}
+.attendence-table{
+width:50%; }
+
+
+.attendence-table td {
+  margin-bottom: 9px;
+  padding: 15px 10px;
+  line-height: 1.3;
+  vertical-align: middle;
+  
+}
+.attendence-table th {
+ padding: 15px 10px;
+  vertical-align: middle;
+  
+}
+
+.routin_table tbody{
+    line-height: 3.4em;
+}
+
+
+.panel-body .student{
+background:url("../images/image-1.jpg")repeat scroll 0 0 / cover rgba(0, 0, 0, 0);
+}
+
+/*---------------routin part----------------*/
+
+
