@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<countries> 
+  <country><code>in</code><phoneCode>91</phoneCode><name>India</name></country>  
+  <country><code>af</code><phoneCode>93</phoneCode><name>Afghanistan</name></country>
+  <country><code>al</code><phoneCode>355</phoneCode><name>Albania</name></country>
+  <country><code>dz</code><phoneCode>213</phoneCode><name>Algeria</name></country>
+  <country><code>ad</code><phoneCode>376</phoneCode><name>Andorra</name></country>
+  <country><code>ao</code><phoneCode>244</phoneCode><name>Angola</name></country>
+  <country><code>aq</code><phoneCode>672</phoneCode><name>Antarctica</name></country>
+  <country><code>ar</code><phoneCode>54</phoneCode><name>Argentina</name></country>
+  <country><code>am</code><phoneCode>374</phoneCode><name>Armenia</name></country>
+  <country><code>aw</code><phoneCode>297</phoneCode><name>Aruba</name></country>
+  <country><code>au</code><phoneCode>61</phoneCode><name>Australia</name></country>
+  <country><code>at</code><phoneCode>43</phoneCode><name>Austria</name></country>
+  <country><code>az</code><phoneCode>994</phoneCode><name>Azerbaijan</name></country>
+  <country><code>bh</code><phoneCode>973</phoneCode><name>Bahrain</name></country>
+  <country><code>bd</code><phoneCode>880</phoneCode><name>Bangladesh</name></country>
+  <country><code>by</code><phoneCode>375</phoneCode><name>Belarus</name></country>
+  <country><code>be</code><phoneCode>32</phoneCode><name>Belgium</name></country>
+  <country><code>bz</code><phoneCode>501</phoneCode><name>Belize</name></country>
+  <country><code>bj</code><phoneCode>229</phoneCode><name>Benin</name></country>
+  <country><code>bt</code><phoneCode>975</phoneCode><name>Bhutan</name></country>
+  <country><code>bo</code><phoneCode>591</phoneCode><name>Bolivia, Plurinational State Of</name></country>
+  <country><code>ba</code><phoneCode>387</phoneCode><name>Bosnia And Herzegovina</name></country>
+  <country><code>bw</code><phoneCode>267</phoneCode><name>Botswana</name></country>
+  <country><code>br</code><phoneCode>55</phoneCode><name>Brazil</name></country>
+  <country><code>bn</code><phoneCode>673</phoneCode><name>Brunei Darussalam</name></country>
+  <country><code>bg</code><phoneCode>359</phoneCode><name>Bulgaria</name></country>
+  <country><code>bf</code><phoneCode>226</phoneCode><name>Burkina Faso</name></country>
+  <country><code>mm</code><phoneCode>95</phoneCode><name>Myanmar</name></country>
+  <country><code>bi</code><phoneCode>257</phoneCode><name>Burundi</name></country>`	>
+  <country><code>cm</code><phoneCode>237</phoneCode><name>Cameroon</name></country>
+  <country><code>ca</code><phoneCode>1</phoneCode><name>Canada</name></country>
+  <country><code>cv</code><phoneCode>238</phoneCode><name>Cape Verde</name></country>
+  <country><code>cf</code><phoneCode>236</phoneCode><name>Central African Republic</name></country>
+  <country><code>td</code><phoneCode>235</phoneCode><name>Chad</name></country>
+  <country><code>cl</code><phoneCode>56</phoneCode><name>Chile</name></country>
+  <country><code>cn</code><phoneCode>86</phoneCode><name>China</name></country>
+  <country><code>cx</code><phoneCode>61</phoneCode><name>Christmas Island</name></country>
+  <country><code>cc</code><phoneCode>61</phoneCode><name>Cocos (keeling) Islands</name></country>
+  <country><code>co</code><phoneCode>57</phoneCode><name>Colombia</name></country>
+  <country><code>km</code><phoneCode>269</phoneCode><name>Comoros</name></country>
+  <country><code>cg</code><phoneCode>242</phoneCode><name>Congo</name></country>
+  <country><code>cd</code><phoneCode>243</phoneCode><name>Congo, The Democratic Republic Of The</name></country>
+  <country><code>ck</code><phoneCode>682</phoneCode><name>Cook Islands</name></country>
+  <country><code>cr</code><phoneCode>506</phoneCode><name>Costa Rica</name></country>
+  <country><code>hr</code><phoneCode>385</phoneCode><name>Croatia</name></country>
+  <country><code>cu</code><phoneCode>53</phoneCode><name>Cuba</name></country>
+  <country><code>cy</code><phoneCode>357</phoneCode><name>Cyprus</name></country>
+  <country><code>cz</code><phoneCode>420</phoneCode><name>Czech Republic</name></country>
+  <country><code>dk</code><phoneCode>45</phoneCode><name>Denmark</name></country>
+  <country><code>dj</code><phoneCode>253</phoneCode><name>Djibouti</name></country>
+  <country><code>tl</code><phoneCode>670</phoneCode><name>Timor-leste</name></country>
+  <country><code>ec</code><phoneCode>593</phoneCode><name>Ecuador</name></country>
+  <country><code>eg</code><phoneCode>20</phoneCode><name>Egypt</name></country>
+  <country><code>sv</code><phoneCode>503</phoneCode><name>El Salvador</name></country>
+  <country><code>gq</code><phoneCode>240</phoneCode><name>Equatorial Guinea</name></country>
+  <country><code>er</code><phoneCode>291</phoneCode><name>Eritrea</name></country>
+  <country><code>ee</code><phoneCode>372</phoneCode><name>Estonia</name></country>
+  <country><code>et</code><phoneCode>251</phoneCode><name>Ethiopia</name></country>
+  <country><code>fk</code><phoneCode>500</phoneCode><name>Falkland Islands (malvinas)</name></country>
+  <country><code>fo</code><phoneCode>298</phoneCode><name>Faroe Islands</name></country>
+  <country><code>fj</code><phoneCode>679</phoneCode><name>Fiji</name></country>
+  <country><code>fi</code><phoneCode>358</phoneCode><name>Finland</name></country>
+  <country><code>fr</code><phoneCode>33</phoneCode><name>France</name></country>
+  <country><code>pf</code><phoneCode>689</phoneCode><name>French Polynesia</name></country>
+  <country><code>ga</code><phoneCode>241</phoneCode><name>Gabon</name></country>
+  <country><code>gm</code><phoneCode>220</phoneCode><name>Gambia</name></country>
+  <country><code>ge</code><phoneCode>995</phoneCode><name>Georgia</name></country>
+  <country><code>de</code><phoneCode>49</phoneCode><name>Germany</name></country>
+  <country><code>gh</code><phoneCode>233</phoneCode><name>Ghana</name></country>
+  <country><code>gi</code><phoneCode>350</phoneCode><name>Gibraltar</name></country>
+  <country><code>gr</code><phoneCode>30</phoneCode><name>Greece</name></country>
+  <country><code>gl</code><phoneCode>299</phoneCode><name>Greenland</name></country>
+  <country><code>gt</code><phoneCode>502</phoneCode><name>Guatemala</name></country>
+  <country><code>gn</code><phoneCode>224</phoneCode><name>Guinea</name></country>
+  <country><code>gw</code><phoneCode>245</phoneCode><name>Guinea-bissau</name></country>
+  <country><code>gy</code><phoneCode>592</phoneCode><name>Guyana</name></country>
+  <country><code>ht</code><phoneCode>509</phoneCode><name>Haiti</name></country>
+  <country><code>hn</code><phoneCode>504</phoneCode><name>Honduras</name></country>
+  <country><code>hk</code><phoneCode>852</phoneCode><name>Hong Kong</name></country>
+  <country><code>hu</code><phoneCode>36</phoneCode><name>Hungary</name></country>
+  <country><code>id</code><phoneCode>62</phoneCode><name>Indonesia</name></country>
+  <country><code>ir</code><phoneCode>98</phoneCode><name>Iran, Islamic Republic Of</name></country>
+  <country><code>iq</code><phoneCode>964</phoneCode><name>Iraq</name></country>
+  <country><code>ie</code><phoneCode>353</phoneCode><name>Ireland</name></country>
+  <country><code>im</code><phoneCode>44</phoneCode><name>Isle Of Man</name></country>
+  <country><code>il</code><phoneCode>972</phoneCode><name>Israel</name></country>
+  <country><code>it</code><phoneCode>39</phoneCode><name>Italy</name></country>
+  <country><code>ci</code><phoneCode>225</phoneCode><name>Côte D&apos;ivoire</name></country>
+  <country><code>jp</code><phoneCode>81</phoneCode><name>Japan</name></country>
+  <country><code>jo</code><phoneCode>962</phoneCode><name>Jordan</name></country>
+  <country><code>kz</code><phoneCode>7</phoneCode><name>Kazakhstan</name></country>
+  <country><code>ke</code><phoneCode>254</phoneCode><name>Kenya</name></country>
+  <country><code>ki</code><phoneCode>686</phoneCode><name>Kiribati</name></country>
+  <country><code>kw</code><phoneCode>965</phoneCode><name>Kuwait</name></country>
+  <country><code>kg</code><phoneCode>996</phoneCode><name>Kyrgyzstan</name></country>
+  <country><code>la</code><phoneCode>856</phoneCode><name>Lao People&apos;s Democratic Republic</name></country>
+  <country><code>lv</code><phoneCode>371</phoneCode><name>Latvia</name></country>
+  <country><code>lb</code><phoneCode>961</phoneCode><name>Lebanon</name></country>
+  <country><code>ls</code><phoneCode>266</phoneCode><name>Lesotho</name></country>
+  <country><code>lr</code><phoneCode>231</phoneCode><name>Liberia</name></country>
+  <country><code>ly</code><phoneCode>218</phoneCode><name>Libya</name></country>
+  <country><code>li</code><phoneCode>423</phoneCode><name>Liechtenstein</name></country>
+  <country><code>lt</code><phoneCode>370</phoneCode><name>Lithuania</name></country>
+  <country><code>lu</code><phoneCode>352</phoneCode><name>Luxembourg</name></country>
+  <country><code>mo</code><phoneCode>853</phoneCode><name>Macao</name></country>
+  <country><code>mk</code><phoneCode>389</phoneCode><name>Macedonia, The Former Yugoslav Republic Of</name></country>
+  <country><code>mg</code><phoneCode>261</phoneCode><name>Madagascar</name></country>
+  <country><code>mw</code><phoneCode>265</phoneCode><name>Malawi</name></country>
+  <country><code>my</code><phoneCode>60</phoneCode><name>Malaysia</name></country>
+  <country><code>mv</code><phoneCode>960</phoneCode><name>Maldives</name></country>
+  <country><code>ml</code><phoneCode>223</phoneCode><name>Mali</name></country>
+  <country><code>mt</code><phoneCode>356</phoneCode><name>Malta</name></country>
+  <country><code>mh</code><phoneCode>692</phoneCode><name>Marshall Islands</name></country>
+  <country><code>mr</code><phoneCode>222</phoneCode><name>Mauritania</name></country>
+  <country><code>mu</code><phoneCode>230</phoneCode><name>Mauritius</name></country>
+  <country><code>yt</code><phoneCode>262</phoneCode><name>Mayotte</name></country>
+  <country><code>mx</code><phoneCode>52</phoneCode><name>Mexico</name></country>
+  <country><code>fm</code><phoneCode>691</phoneCode><name>Micronesia, Federated States Of</name></country>
+  <country><code>md</code><phoneCode>373</phoneCode><name>Moldova, Republic Of</name></country>
+  <country><code>mc</code><phoneCode>377</phoneCode><name>Monaco</name></country>
+  <country><code>mn</code><phoneCode>976</phoneCode><name>Mongolia</name></country>
+  <country><code>me</code><phoneCode>382</phoneCode><name>Montenegro</name></country>
+  <country><code>ma</code><phoneCode>212</phoneCode><name>Morocco</name></country>
+  <country><code>mz</code><phoneCode>258</phoneCode><name>Mozambique</name></country>
+  <country><code>na</code><phoneCode>264</phoneCode><name>Namibia</name></country>
+  <country><code>nr</code><phoneCode>674</phoneCode><name>Nauru</name></country>
+  <country><code>np</code><phoneCode>977</phoneCode><name>Nepal</name></country>
+  <country><code>nl</code><phoneCode>31</phoneCode><name>Netherlands</name></country>
+  <country><code>nc</code><phoneCode>687</phoneCode><name>New Caledonia</name></country>
+  <country><code>nz</code><phoneCode>64</phoneCode><name>New Zealand</name></country>
+  <country><code>ni</code><phoneCode>505</phoneCode><name>Nicaragua</name></country>
+  <country><code>ne</code><phoneCode>227</phoneCode><name>Niger</name></country>
+  <country><code>ng</code><phoneCode>234</phoneCode><name>Nigeria</name></country>
+  <country><code>nu</code><phoneCode>683</phoneCode><name>Niue</name></country>
+  <country><code>kp</code><phoneCode>850</phoneCode><name>Korea, Democratic People&apos;s Republic Of</name></country>
+  <country><code>no</code><phoneCode>47</phoneCode><name>Norway</name></country>
+  <country><code>om</code><phoneCode>968</phoneCode><name>Oman</name></country>
+  <country><code>pk</code><phoneCode>92</phoneCode><name>Pakistan</name></country>
+  <country><code>pw</code><phoneCode>680</phoneCode><name>Palau</name></country>
+  <country><code>pa</code><phoneCode>507</phoneCode><name>Panama</name></country>
+  <country><code>pg</code><phoneCode>675</phoneCode><name>Papua New Guinea</name></country>
+  <country><code>py</code><phoneCode>595</phoneCode><name>Paraguay</name></country>
+  <country><code>pe</code><phoneCode>51</phoneCode><name>Peru</name></country>
+  <country><code>ph</code><phoneCode>63</phoneCode><name>Philippines</name></country>
+  <country><code>pn</code><phoneCode>870</phoneCode><name>Pitcairn</name></country>
+  <country><code>pl</code><phoneCode>48</phoneCode><name>Poland</name></country>
+  <country><code>pt</code><phoneCode>351</phoneCode><name>Portugal</name></country>
+  <country><code>pr</code><phoneCode>1</phoneCode><name>Puerto Rico</name></country>
+  <country><code>qa</code><phoneCode>974</phoneCode><name>Qatar</name></country>
+  <country><code>ro</code><phoneCode>40</phoneCode><name>Romania</name></country>
+  <country><code>ru</code><phoneCode>7</phoneCode><name>Russian Federation</name></country>
+  <country><code>rw</code><phoneCode>250</phoneCode><name>Rwanda</name></country>
+  <country><code>bl</code><phoneCode>590</phoneCode><name>Saint Barthélemy</name></country>
+  <country><code>ws</code><phoneCode>685</phoneCode><name>Samoa</name></country>
+  <country><code>sm</code><phoneCode>378</phoneCode><name>San Marino</name></country>
+  <country><code>st</code><phoneCode>239</phoneCode><name>Sao Tome And Principe</name></country>
+  <country><code>sa</code><phoneCode>966</phoneCode><name>Saudi Arabia</name></country>
+  <country><code>sn</code><phoneCode>221</phoneCode><name>Senegal</name></country>
+  <country><code>rs</code><phoneCode>381</phoneCode><name>Serbia</name></country>
+  <country><code>sc</code><phoneCode>248</phoneCode><name>Seychelles</name></country>
+  <country><code>sl</code><phoneCode>232</phoneCode><name>Sierra Leone</name></country>
+  <country><code>sg</code><phoneCode>65</phoneCode><name>Singapore</name></country>
+  <country><code>sk</code><phoneCode>421</phoneCode><name>Slovakia</name></country>
+  <country><code>si</code><phoneCode>386</phoneCode><name>Slovenia</name></country>
+  <country><code>sb</code><phoneCode>677</phoneCode><name>Solomon Islands</name></country>
+  <country><code>so</code><phoneCode>252</phoneCode><name>Somalia</name></country>
+  <country><code>za</code><phoneCode>27</phoneCode><name>South Africa</name></country>
+  <country><code>kr</code><phoneCode>82</phoneCode><name>Korea, Republic Of</name></country>
+  <country><code>es</code><phoneCode>34</phoneCode><name>Spain</name></country>
+  <country><code>lk</code><phoneCode>94</phoneCode><name>Sri Lanka</name></country>
+  <country><code>sh</code><phoneCode>290</phoneCode><name>Saint Helena, Ascension And Tristan Da Cunha</name></country>
+  <country><code>pm</code><phoneCode>508</phoneCode><name>Saint Pierre And Miquelon</name></country>
+  <country><code>sd</code><phoneCode>249</phoneCode><name>Sudan</name></country>
+  <country><code>sr</code><phoneCode>597</phoneCode><name>Suriname</name></country>
+  <country><code>sz</code><phoneCode>268</phoneCode><name>Swaziland</name></country>
+  <country><code>se</code><phoneCode>46</phoneCode><name>Sweden</name></country>
+  <country><code>ch</code><phoneCode>41</phoneCode><name>Switzerland</name></country>
+  <country><code>sy</code><phoneCode>963</phoneCode><name>Syrian Arab Republic</name></country>
+  <country><code>tw</code><phoneCode>886</phoneCode><name>Taiwan, Province Of China</name></country>
+  <country><code>tj</code><phoneCode>992</phoneCode><name>Tajikistan</name></country>
+  <country><code>tz</code><phoneCode>255</phoneCode><name>Tanzania, United Republic Of</name></country>
+  <country><code>th</code><phoneCode>66</phoneCode><name>Thailand</name></country>
+  <country><code>tg</code><phoneCode>228</phoneCode><name>Togo</name></country>
+  <country><code>tk</code><phoneCode>690</phoneCode><name>Tokelau</name></country>
+  <country><code>to</code><phoneCode>676</phoneCode><name>Tonga</name></country>
+  <country><code>tn</code><phoneCode>216</phoneCode><name>Tunisia</name></country>
+  <country><code>tr</code><phoneCode>90</phoneCode><name>Turkey</name></country>
+  <country><code>tm</code><phoneCode>993</phoneCode><name>Turkmenistan</name></country>
+  <country><code>tv</code><phoneCode>688</phoneCode><name>Tuvalu</name></country>
+  <country><code>ae</code><phoneCode>971</phoneCode><name>United Arab Emirates</name></country>
+  <country><code>ug</code><phoneCode>256</phoneCode><name>Uganda</name></country>
+  <country> <code>gb</code> <phoneCode>44</phoneCode> <name>United Kingdom</name> </country>
+  <country><code>uy</code><phoneCode>598</phoneCode><name>Uruguay</name></country> 
+  <country> <code>us</code> <phoneCode>1</phoneCode> <name>United States</name></country>
+  <country><code>uz</code><phoneCode>998</phoneCode><name>Uzbekistan</name></country>
+  <country><code>vu</code><phoneCode>678</phoneCode><name>Vanuatu</name></country>
+  <country><code>va</code><phoneCode>39</phoneCode><name>Holy See (vatican City State)</name></country>
+  <country><code>ve</code><phoneCode>58</phoneCode><name>Venezuela, Bolivarian Republic Of</name></country>
+  <country><code>vn</code><phoneCode>84</phoneCode><name>Viet Nam</name></country>
+  <country><code>wf</code><phoneCode>681</phoneCode><name>Wallis And Futuna</name></country>
+  <country><code>ye</code><phoneCode>967</phoneCode><name>Yemen</name></country>
+  <country><code>zm</code><phoneCode>260</phoneCode><name>Zambia</name></country>
+  <country><code>zw</code><phoneCode>263</phoneCode><name>Zimbabwe</name></country>
+</countries>
