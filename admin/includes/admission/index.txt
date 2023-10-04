@@ -1,0 +1,3 @@
+admission_form
+index
+view_admission
