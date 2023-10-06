@@ -1,0 +1,5 @@
+activation_mail
+feepayment_mail
+homework_mail
+index
+registration_mail
