@@ -1,0 +1,105 @@
+.col-md-6.col-sm-6.col-xs-12.data_right {
+    padding-right: 15px;
+}
+.col-md-6.col-sm-6.col-xs-12.attandance_padding {
+    padding-left: 15px ;
+}
+.padding_left_0 {
+    padding-left: 15px !important;
+}
+.padding_right_0 {
+    padding-right: 15px !important;
+}
+/** RTL start css **/
+.rtl .student_registraion_form #registration_form .form-group{
+	display: block !important;	
+}
+.rtl .student_registraion_form .radio-inline {
+	float: right !important;
+}
+.rtl .student_admission_form .radio-inline {
+	float: right !important;
+}
+.rtl #motid12 input.file_validation.input-file[type=file]{
+	width: 100% !important;
+}
+.rtl #fatid12 input.file_validation.input-file[type=file]{
+	width: 100% !important;
+}
+.rtl .student_reg_error .error {
+	direction: rtl;
+    float: left;
+}
+.rtl table.dataTable thead th, table.dataTable thead td {
+    padding: 10px 18px !important;
+}
+.rtl .formError {
+	position: absolute;
+	left: -30px !important;
+}
+.formError {
+	position: absolute;
+	left: -30px;
+}
+.rtl .student_registraion_form #registration_form .form-group .col-sm-8, .rtl .student_registraion_form #registration_form .form-group .col-sm-2, .rtl .student_registraion_form #registration_form .form-group .col-sm-1, .rtl .student_registraion_form #registration_form .form-group .col-sm-7 {
+	width: 100% !important;
+	/* float: right; */
+}
+.rtl .student_registraion_form #registration_form .form-group .col-sm-1{
+	padding-right: 15px !important;
+}
+.rtl .student_registraion_form .form-control[readonly] {
+    background-color: #eee;
+    opacity: 1;
+	/* padding: 15px 5px 15px 5px; */
+}
+.rtl .panel-group .panel-heading .panel-title>a {
+	padding-right: 20px;
+}
+.panel-group .panel-heading .panel-title>a {
+	padding-right: 20px;
+}
+.schoo-management-content .nav.navbar-right .dropdown {
+    float: left !important;
+}
+table.dataTable thead th, table.dataTable thead td {
+    padding: 10px 18px !important;
+}
+.rtl.wp-admin input[type=file] {
+	width: 100% !important;
+}
+.rtl .student_admission_form #admission_form .formError {
+    position: absolute !important;
+    left: 200px !important;
+}
+.rtl #upload_form .formError {
+    position: absolute !important;
+    left: 400px !important;
+}
+.rtl input[type=checkbox]:checked::before {
+	margin: -3px 0 0 0px !important;
+}
+@media only screen and (min-width:1400px) and (max-width: 1599px) {
+	.rtl .student_admission_form #admission_form .formError {
+    position: absolute !important;
+    left: 260px !important;
+	}
+	.rtl #upload_form .formError {
+    position: absolute !important;
+    left: 500px !important;
+	}
+}
+@media only screen and (min-width:1600px) and (max-width: 2000px) {
+	.rtl .student_admission_form #admission_form .formError {
+    position: absolute !important;
+    left: 400px !important;
+	}
+	.rtl #upload_form .formError {
+    position: absolute !important;
+    left: 600px !important;
+	}
+}
+input[type=file] {
+  width: 100% !important;
+}
+/** RTL End Css **/

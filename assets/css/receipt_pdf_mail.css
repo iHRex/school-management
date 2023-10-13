@@ -1,0 +1,97 @@
+table, .header, span.sign {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #444;
+}
+.borderpx {
+    border: 1px solid #97C4E7;
+}
+.count td, .count th {
+    padding-left: 10px;
+    height: 40px;
+}
+.resultdate {
+    float: left;
+    width: 200px;
+    padding-top: 150px;
+    text-align: center;
+}
+.signature {
+    float: right;
+    width: 200px;
+	padding-top:-48px;
+    text-align: center;
+}
+.exam_receipt_print{
+	width: 90%;
+	margin:0 auto;
+}
+.header_logo{
+	float:left;
+	width: 100%;
+	text-align:center;
+}
+.font_22
+{
+	font-size:22px;
+}
+.Examination_header
+{
+	float:left; 
+	width: 100%;
+	font-size:18px;
+	text-align:center;
+	padding-bottom: 20px;
+}
+.Examination_header_color{
+	color:#970606;
+}
+.float_width
+{
+	float:left; 
+	width: 100%;
+}
+.padding_top_20
+{
+	padding-top:20px;
+}
+.img_td
+{
+	text-align:center;
+	border-right : 1px solid #97C4E7;
+}
+.border_bottom{
+	border-bottom : 1px solid #97C4E7;
+}
+.border_bottom_0{
+	border-bottom : 0px;
+}
+.border_bottom_rigth{
+	border-bottom : 1px solid #97C4E7;
+	border-right : 1px solid #97C4E7;
+}
+.border_rigth{
+	border-right : 1px solid #97C4E7;
+}
+.main_td
+{
+	text-align:center;
+	border-bottom : 1px solid #97C4E7;
+}
+.hr_color{
+	color:#97C4E7;
+}
+.header_color{
+	color:#204759;
+}
+.max_height_100
+{
+	max-height:100px;
+}
+.tr_back_color
+{
+	background-color:#337AB7;
+}
+.color_white{
+	color:white;
+}

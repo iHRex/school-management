@@ -1,0 +1,10 @@
+/* Custom css*/
+@media print {
+    .footer,
+    #non-printable {
+        display: none !important;
+    }
+    #printable {
+        display: block;
+    }
+}

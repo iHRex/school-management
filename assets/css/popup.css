@@ -1,0 +1,29 @@
+/** Pop up Box Style **/
+
+
+.popup-bg {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height:100%;
+	width: 100%;
+	cursor: pointer;
+	z-index: 1000; /* high z-index */
+	background: #000; /* fallback */
+	background: rgba(0,0,0,0.75);
+}
+.overlay-content {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.9);
+    cursor: default;
+    float: left;
+    left: 40%;
+    margin: 0 0 0 -13%;
+    padding: 10px 10px 10px;
+    position: fixed;
+    top: 6%;
+    width: 60%;
+}
+

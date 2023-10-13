@@ -1,0 +1,337 @@
+/* rinkal deshboard css*/
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 0px !important;
+}
+p.remainder_date_pr, p.remainder_date{
+	margin-top: 6px !important;
+}
+.table>tbody>tr>td{
+	vertical-align: middle !important;
+}
+.info-box .info-box-icon {
+    float: left !important;
+}
+.info-box-icon {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 2px;
+    display: block;
+    float: left;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 45px;
+    line-height: 90px;
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff !important;
+}
+.info-box .info-box-icon i {
+    color: #FFFFFF;
+}
+.info-box .info-box-stats {
+    float: left;
+    height: 70px;
+    margin: 0;
+    vertical-align: middle;
+    margin-top: 15px;
+    width: calc(100% - 100px);
+    padding: 10px;
+    text-align: center;
+}
+span.info-box-title.all_box{
+	color: white !important;
+}
+p.counter{
+	color: white !important;
+    font-weight: 600 !important;
+    font-size: 24px !important;
+}
+.all_box:hover{
+	font-weight: bold;
+}
+.list_en1{
+	/* min-height: 268px;
+	max-height: 269px; */
+}
+.list_en2{
+	/* height: 270px; */
+}
+/*student css*/
+img.dashboard_background {
+    float: left;
+    width: 100%;
+}
+.info-box .panel-body {
+    padding: 0 !important;
+}
+
+/* staff css*/
+.info-box .staff1 .info-box-stats span.info-box-title {
+    color: #4E5E6A;
+}
+.info-box .staff1 .info-box-stats p {
+    color: #4E5E6A;
+    font-size: 34px;
+}
+
+/* setting css*/
+.info-box .settings .info-box-stats span.info-box-title {
+    color: #1EC1FC;
+}
+.info-box .settings .info-box-stats p {
+    color: #1EC1FC;
+    font-size: 34px;    
+}
+
+/* message css*/
+.info-box .message .info-box-stats span.info-box-title {
+    color: #FFCD1E;
+}
+.info-box .message .info-box-stats p {
+    color: #FFCD1E;
+    font-size: 34px;
+}
+
+/* notice css*/
+.info-box .notices .info-box-stats span.info-box-title {
+    color: #FF0000;
+}
+.info-box .notices .info-box-stats p {
+    color: #FF0000;
+    font-size: 34px;
+}
+
+/* all post deshboard css*/
+.panel-body.teacher {
+    background-color: #3c8dbc;
+}
+.panel-body.student{
+	background-color: #00a65a;
+}
+.panel-body.parent{
+	background-color: #dd4b39;
+}
+.panel-body.staff1{
+	background-color: #f39c12;
+}
+.panel-body.notices{
+	background-color: #ff5c00;
+}
+.panel-body.attendence{
+	background-color: #8f83ff;
+}
+.panel-body.message{
+	background-color: #22a8ee;
+}
+.panel-body.settings{
+	background-color: #008378;
+}
+.panel-white.nt .panel-heading {
+	border-top: 3px solid #ff5c00 !important;
+}
+.panel-white.event .panel-heading {
+	border-top: 3px solid #008378 !important;
+}
+.panel-white.exam .panel-heading{
+	border-top: 3px solid #dd4b39 !important;
+}
+.panel-white.class .panel-heading{
+	border-top: 3px solid #3c8dbc !important;
+}
+.panel-white.notification .panel-heading{
+	border-top: 3px solid #8f83ff !important;
+}
+.panel-white.cln .panel-body{
+	border-top: 3px solid #8f83ff !important;
+}
+.panel-white.invoice .panel-heading{
+	border-top: 3px solid #00a65a!important;
+}
+/* .page-inner .info-box .panel-body.student:hover{
+    transform: scale(1.2);
+}  */
+
+/* frontend side css*/
+
+.my_table{
+	border-top: 3px solid #22a8ee !important;
+}
+/* read more button css*/
+.read_more{
+	float: right;
+}
+
+/* font awesome icon css*/
+.fa-user{
+	font-size:18px;
+}
+.fa-external-link{
+	font-size: 17px !important;
+	float: right;
+}
+
+/*exam list css*/
+.panel-heading{
+	border-bottom: 1px solid #ddd !important;
+}
+.calendar-event p.Bold {
+    font-weight: 700!important;
+}
+.calendar-event {
+    padding: 7px 10px;
+    color: #5B5B5B;
+    background: #FCF8E3;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.calendar-event {
+    background: none!important;
+}
+.calendar-event {
+    padding: 10px 0px;
+    text-transform: capitalize;
+    border-bottom: 1px solid #f4f4f4;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.calendar-event .remainder_title_pr {
+    float: left!important;
+    width: calc(100% - 88px)!important;
+    cursor: pointer!important;
+}
+.calendar-event .remainder_title_pr_new {
+    float: left!important;
+    width: calc(100% - 88px)!important;
+}
+.calendar-event .remainder_title_pr_new_template {
+    float: left!important;
+    width: calc(100% - 150px)!important;
+}
+.calendar-event .remainder_date_pr {
+    background-color: #dd4b39;
+}
+.calendar-event .remainder_date_pr {
+    float: right;
+    width: 88px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    padding: 0 10px;
+    color: #FFF;
+    border-radius: 2px;
+}
+.exam .calendar-event .remainder_date {
+    background-color: #dd4b39;
+}
+/* class css*/
+.class .table td, .table>tbody>tr>td{
+	padding: 7px!important;
+}
+.class .table>thead>tr>th {
+    padding:7px!important;
+}
+.unit{
+	border-bottom: 1px solid #f4f4f4;
+}
+.class .btn-success{
+	background-color: #3c8dbc !important;
+}
+
+/* notice css*/
+.calendar-event .remainder_title {
+    float: left;
+    width: calc(100% - 180px);
+    cursor: pointer;
+}
+.nt .calendar-event .remainder_date{
+    background-color: #ff5c00;
+}
+.calendar-event .remainder_date {
+    float: right;
+    width: 162px;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+    padding: 0 5px;
+    color: #FFF;
+    border-radius: 2px;
+    background-color: #008378;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/*invoice css*/
+.events.table td, .table>tbody>tr>td{
+	padding: 7px!important;
+}
+.events .table>thead>tr>th {
+    padding:7px!important;
+}
+
+/*report css*/
+.panel.panel-body.panel-white.payment_report{
+	border-top: 3px solid #00a65a !important;
+}
+.panel.panel-body.panel-white.month_attandance{
+	border-top: 3px solid #f39c12 !important;
+}
+.panel.panel-body.panel-white.student_report{
+	border-top: 3px solid #FF008B !important;
+}
+.panel.panel-body.panel-white.student_report{
+	border-top: 3px solid #7420D8 !important;
+}
+.panel.panel-body.panel-white.result_report.student_report{
+	border-top: 3px solid #22a8ee !important;
+}
+.panel.panel-body.panel-white.result_report{
+	border-top: 3px solid #00a65a !important;
+}
+.col-md-6.col-sm-6.col-xs-12.attandance_padding{
+	padding-left: 0px;
+}
+.col-md-6.col-sm-6.col-xs-12.data_right{
+	padding-right: 0px;
+}
+
+/*extra changes css*/
+.attandance_padding .panel-body{
+	padding: 0px !important;
+}
+.attandance_padding  .panel-heading-report{
+	border-bottom: 1px solid #ddd;
+}
+.attandance_padding .panel-heading-report h3{
+	margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.attandance_padding h3.panel-title-report{
+	padding: 16px;
+}
+ul.nav.navbar-right.panel_toolbox{
+	margin-top: 3px;
+}
+.month_attandance,.result_report, .payment_report {
+	max-height: 565px;
+    min-height: 100px;
+}
+
+
+/* report icon*/
+.panel-title-report i.fa{
+	margin-right: 7px;
+	font-size: 14px;
+}
+
+
+/* front end side extra changes */
+.col-md-6.left_side_data{
+	padding-left: 0px;
+}
+
+/* data note found msg*/
+.error_msg{
+	padding: 15px;
+	font-size: 14px;
+    color: gray;
+}
