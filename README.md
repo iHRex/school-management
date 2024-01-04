@@ -74,6 +74,9 @@ We welcome contributions from the open-source community to enhance and improve t
 
 4. Submit a pull request to the main repository.
 
+>### Contributors using Visual Studio Code (VS Code)
+>You can use **[WordPress Playground for VSCode](https://marketplace.visualstudio.com/items?itemName=WordPressPlayground.wordpress-playground)** add-on to make changes, which is available for free on Visual Studio Marketplace, as well as Visual Studio Code (VS Code) Add-on section.
+
 ## Issues
 
 If you encounter any issues or have suggestions for improvements, please open an issue on the GitHub repository's [issue tracker](https://github.com/iHRex/school-management/issues).
