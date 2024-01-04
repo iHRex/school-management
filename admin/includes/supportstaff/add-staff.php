@@ -85,7 +85,7 @@ $(document).ready(function() {
 			</div>
 		</div>
 		<div class="form-group">
-			<label class="col-sm-2 control-label" for="state_name"><?php _e('State','school-mgt');?></label>
+			<label class="col-sm-2 control-label" for="state_name"><?php _e('State','school-mgt');?><span class="require-field">*</span></label>
 			<div class="col-sm-8">
 				<input id="state_name" class="form-control validate[custom[city_state_country_validation]]" maxlength="50" type="text"  name="state_name" 
 				value="<?php if($edit){ echo $user_info->state;}elseif(isset($_POST['state_name'])) echo $_POST['state_name'];?>">
@@ -102,7 +102,7 @@ $(document).ready(function() {
 		<div class="form-group">
 			<label class="col-sm-2 control-label" for="mobile_number"><?php _e('Mobile Number','school-mgt');?><span class="require-field">*</span></label>
 			<div class="col-sm-1">			
-				<input type="text" readonly value="+<?php echo smgt_get_countery_phonecode(get_option( 'smgt_contry' ));?>"  class="form-control country_code" name="phonecode">
+				<input type="text" readonly value="+91" class="form-control country_code" name="phonecode">
 			</div>
 			<div class="col-sm-7">				
 				<input id="mobile_number" class="form-control btn_top validate[required,custom[phone_number],minSize[6],maxSize[15]] text-input" type="text"  name="mobile_number"
@@ -113,7 +113,7 @@ $(document).ready(function() {
 			<label class="col-sm-2 control-label" for="mobile_number"><?php _e('Alternate Mobile Number','school-mgt');?></label>
 			<div class="col-sm-1">
 			
-			<input type="text" readonly value="+<?php echo smgt_get_countery_phonecode(get_option( 'smgt_contry' ));?>"  class="form-control country_code" name="alter_mobile_number">
+			<input type="text" readonly value="+91"  class="form-control country_code" name="alter_mobile_number">
 			</div>
 			<div class="col-sm-7">
 				<input id="alternet_mobile_number" class="form-control btn_top text-input validate[custom[phone_number],minSize[6],maxSize[15]]" type="text"  name="alternet_mobile_number"
@@ -142,7 +142,7 @@ $(document).ready(function() {
 			<div class="col-sm-8">
 				<?php if($edit){ $workrval=$user_info->working_hour; }elseif(isset($_POST['working_hour'])){$workrval=$_POST['working_hour'];}else{$workrval='';}?>
                      <select name="working_hour" class="form-control max_width_100" id="working_hour">
-                     	<option value=""><?php _e('select job time','school-mgt');?></option>
+                     	<option value=""><?php _e('Select Job Time','school-mgt');?></option>
                         <option value="full_time" <?php selected( $workrval, 'full_time'); ?>><?php _e('Full Time','school-mgt');?></option>
                         <option value="half_day" <?php selected( $workrval, 'half_day'); ?>><?php _e('Part time','school-mgt');?></option>
                      </select>
