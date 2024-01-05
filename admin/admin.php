@@ -6,11 +6,7 @@ function school_menu()
 if (function_exists('cmgt_setup'))  
 	{
 		add_menu_page( 'School Management', __('School Management','school-mgt'), 'manage_options', 'smgt_school', 'school_dashboard',plugins_url( 'school-management/assets/images/school-management-system-1.png' ), 7); 
-		
-		if($_SESSION['cmgt_verify'] == '')
-		{ 
-			add_submenu_page('smgt_school','Licence Settings',__( 'Licence Settings', 'school-mgt' ),'manage_options','smgt_setup','smgt_options_page');
-		}
+
 		add_submenu_page('smgt_school', 'Dashboard', __( 'Dashboard', 'school-mgt' ), 'administrator', 'smgt_school', 'school_dashboard');
 
 		add_submenu_page('smgt_school', 'Admission', __( 'Admission', 'school-mgt' ), 'administrator', 'smgt_admission', 'student_admission');
