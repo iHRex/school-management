@@ -85,7 +85,7 @@ We welcome contributions from the open-source community to enhance and improve t
 
 If you encounter any issues or have suggestions for improvements, please open an issue on the GitHub repository's [issue tracker](https://github.com/iHRex/school-management/issues).
 
-## Issues
+## Discussions
 
 Help needed? or want to discuss something? Head towrds the [discussions](https://github.com/iHRex/school-management/discussions).
 
