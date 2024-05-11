@@ -85,6 +85,10 @@ We welcome contributions from the open-source community to enhance and improve t
 
 If you encounter any issues or have suggestions for improvements, please open an issue on the GitHub repository's [issue tracker](https://github.com/iHRex/school-management/issues).
 
+## Issues
+
+Help needed? or want to discuss something? Head towrds the [discussions](https://github.com/iHRex/school-management/discussions).
+
 ## License
 
 This School Management System WordPress plugin is released under the [GNU GENERAL PUBLIC LICENSE](LICENSE.md). You are free to use, modify, and distribute it as per the terms of the license.
