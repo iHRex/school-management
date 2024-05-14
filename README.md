@@ -4,7 +4,7 @@
 
 # School Management System (WordPress Plugin)
 
-![School Management](school-management.jpg)
+![[School Management](school-management.jpg)(https://www.youtube.com/watch?v=QozxtilDRGc)]
 
 School Management System is a comprehensive WordPress plugin designed to streamline the administrative tasks of schools and colleges. It offers a wide range of features to help you efficiently manage various aspects of your educational institution.
 
