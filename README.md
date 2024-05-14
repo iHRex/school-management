@@ -10,6 +10,8 @@ School Management System is a comprehensive WordPress plugin designed to streaml
 
 ## Features
 
+What can be better then a feature video? [Watch Now!](https://www.youtube.com/watch?v=QozxtilDRGc)
+
 - **Admission Management**: Easily manage student admissions, including personal information, academic details, and more.
 
 - **Fee Management**: Keep track of student fees, generate fee receipts, and automate fee reminders.
