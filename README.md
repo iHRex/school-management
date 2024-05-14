@@ -1,3 +1,7 @@
+![Girl Script Summer of Code](assets/images/gssoc.png)
+
+![StreamlineEDU](assets/images/header.png)
+
 # School Management System (WordPress Plugin)
 
 ![School Management](school-management.jpg)
