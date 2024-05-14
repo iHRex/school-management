@@ -85,7 +85,15 @@ We welcome contributions from the open-source community to enhance and improve t
 >2. Install the following add-on
 >>You can use **[WordPress Playground for VSCode](https://marketplace.visualstudio.com/items?itemName=WordPressPlayground.wordpress-playground)** add-on to make changes, which is available for free on Visual Studio Marketplace, as well as Visual Studio Code (VS Code) Add-on section.
 >3. Navigate to Wordpress tab on the left bar of VS Code
->4. Click on ***Start Wordpress Server*** 
+>4. Click on ***Start Wordpress Server***
+
+## Demo
+
+>Kindly do not make changes to credentials
+
+User Name: ```Redacted```
+Password: ```Redacted```
+Demo Link : https://streamlineedu.hrserv.in/wp-admin
 
 ## Issues
 
