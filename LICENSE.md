@@ -1,4 +1,4 @@
- # GNU GENERAL PUBLIC LICENSE
+ # **GNU GENERAL PUBLIC LICENSE**🔐
 ### Version 3, 29 June 2007
 
  Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
@@ -7,10 +7,10 @@
 
 ## Preamble
 
-  The GNU General Public License is a free, copyleft license for
+The GNU General Public License is a free, copyleft license for
 software and other kinds of works.
 
-  The licenses for most software and other practical works are designed
+The licenses for most software and other practical works are designed
 to take away your freedom to share and change the works.  By contrast,
 the GNU General Public License is intended to guarantee your freedom to
 share and change all versions of a program--to make sure it remains free
@@ -81,10 +81,7 @@ works, such as semiconductor masks.
 License.  Each licensee is addressed as "you".  "Licensees" and
 "recipients" may be individuals or organizations.
 
-  To "modify" a work means to copy from or adapt all or part of the work
-in a fashion requiring copyright permission, other than the making of an
-exact copy.  The resulting work is called a "modified version" of the
-earlier work or a work "based on" the earlier work.
+  To "modify" a work means to copy or adapt all or part of the work in a way that requires copyright permission, excluding making an exact copy. The resulting creation is called a "modified version" of the original work or a work "based on" the original.
 
   A "covered work" means either the unmodified Program or a work based
 on the Program.
@@ -250,11 +247,13 @@ machine-readable Corresponding Source under the terms of this License,
 in one of these ways:
 
     a) Convey the object code in, or embodied in, a physical product
+
     (including a physical distribution medium), accompanied by the
     Corresponding Source fixed on a durable physical medium
     customarily used for software interchange.
 
     b) Convey the object code in, or embodied in, a physical product
+
     (including a physical distribution medium), accompanied by a
     written offer, valid for at least three years and valid for as
     long as you offer spare parts or customer support for that product
@@ -302,7 +301,11 @@ doubtful cases shall be resolved in favor of coverage.  For a particular
 product received by a particular user, "normally used" refers to a
 typical or common use of that class of product, regardless of the status
 of the particular user or of the way in which the particular user
-actually uses, or expects or is expected to use, the product.  A product
+actually uses, or expects or is expected to use, the product. 
+
+<br>
+
+ A product
 is a consumer product regardless of whether the product has substantial
 commercial, industrial or non-consumer uses, unless such uses represent
 the only significant mode of use of the product.
@@ -611,11 +614,6 @@ SUCH DAMAGES.
 
 #### 17. Interpretation of Sections 15 and 16.
 
-  If the disclaimer of warranty and limitation of liability provided
-above cannot be given local legal effect according to their terms,
-reviewing courts shall apply local law that most closely approximates
-an absolute waiver of all civil liability in connection with the
-Program, unless a warranty or assumption of liability accompanies a
-copy of the Program in return for a fee.
+ If the disclaimer of warranty and limitation of liability above cannot be enforced according to local laws, courts should apply local laws that most closely approximate a complete waiver of all civil liability related to the Program. This applies unless a warranty or assumption of liability is provided with a copy of the Program in exchange for a fee.
 
-                     END OF TERMS AND CONDITIONS
+                END OF TERMS AND CONDITIONS

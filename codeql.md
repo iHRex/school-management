@@ -1,25 +1,22 @@
-name: My CodeQL Analysis
+# **CodeQL Analysis Configuration**🖳
 
-# Specify the language of the codebase
-language: java
+## Language Specification
+### Language : Java
 
-# Specify the queries to run
-queries:
-  - path/to/first-query.ql
-  - path/to/second-query.ql
+## Queries Selection📶
+### Queries:
+  - ```path/to/first-query.ql```
+  - ```path/to/second-query.ql```
+## Database Configuration 🌐
+  Source roots:
+    - ```path/to/source/code```
 
-# Specify the database creation and setup
-database:
-  source-roots:
-    - path/to/source/code
+## Additional Configuration Options 📡
+### Options:
+  - Key: ```maximal-heap```
+  - Value: ```4096```
 
-# Specify additional configuration options
-# (e.g., external libraries, includes, excludes, etc.)
-options:
-  - key: maximal-heap
-    value: 4096
+## Environment Setup 🖥️
 
-# Specify environment setup, if needed
-environments:
-  - name: my-custom-environment
-    setup: path/to/setup-script.sh
+  - Name: ```my-custom-environment```
+  - Setup: ```path/to/setup-script.sh```
