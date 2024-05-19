@@ -3456,7 +3456,7 @@ $role='student_temp';
 	<div class="form-group">
 	<div class="form-group">
     <label class="col-sm-3 control-label" for="mobile_number"><?php _e('Mobile Number', 'school-mgt');?><span class="require-field">*</span></label>
-    <div class="col-sm-3">
+    <div class="col-sm-2">
         <select class="form-control" name="phonecode">
             <?php
             // Iterate through country codes array to create options
@@ -3466,13 +3466,12 @@ $role='student_temp';
             ?>
         </select>
     </div>
-    <div class="col-sm-6">
+	<div class="col-sm-6">
         <input id="mobile_number" class="form-control text-input validate[custom[phone_number],minSize[6],maxSize[15]]" type="text"  name="mobile_number"
         value="<?php if($edit){ echo $user_info->mobile_number;}elseif(isset($_POST['mobile_number'])) echo $_POST['mobile_number'];?>" placeholder="<?php _e('Enter Mobile Number', 'school-mgt'); ?>" type="text" name="phone">
 		
     </div>
 </div>
-
 </div>
 
     <!-- <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
@@ -3721,10 +3720,10 @@ $role='student_temp';
 										</div>
 									</div>
 								</div>
-								<div class="row">
-									<div id="fatid6">	
-									<div class="col-sm-6 col-lg-6 col-md-6 col-xs-12">
-									<label class="col-sm-3 control-label" for="mobile_number"><?php _e('Mobile Number', 'school-mgt');?><span class="require-field">*</span></label>
+	<div class="row">
+	<div id="fatid6">	
+	<div class="col-sm-6 col-lg-6 col-md-6 col-xs-12">
+	<label class="col-sm-3 control-label" for="mobile_number"><?php _e('Mobile Number', 'school-mgt');?><span class="require-field">*</span></label>
     <div class="col-sm-5">
         <select class="form-control" name="phonecode">
             <?php
