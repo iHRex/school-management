@@ -1737,6 +1737,30 @@ jQuery(document).ready(function() {
 		}
 	});
 </script>
+
+<?php
+$country_codes = array(
+    'United States' => '1',
+    'United Kingdom' => '44',
+    'India' => '91',
+    // Add more country codes as needed
+);
+?>
+
+<?php
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Get the selected country code and entered mobile number
+    $phonecode = isset($_POST['phonecode']) ? sanitize_text_field($_POST['phonecode']) : '';
+    $mobile_number = isset($_POST['mobile_number']) ? sanitize_text_field($_POST['mobile_number']) : '';
+
+    // Combine country code and mobile number
+    $full_mobile_number = '+' . $phonecode . $mobile_number;
+
+    // Process the full mobile number as needed
+    // ...
+}
+?>
+
 <script type="text/javascript">
 function fileCheck(obj) 
 {
@@ -1835,25 +1859,43 @@ function fileCheck(obj)
 			</div>
 		</div>
 		<div class="form-group">
-			<label class="col-sm-2 control-label dob_label_res" for="mobile_number"><?php _e('Mobile Number','school-mgt');?></label>
-			<div class="col-sm-1" style="padding-right:0px;">
-			<input type="text" readonly value="+<?php echo smgt_get_countery_phonecode(get_option( 'smgt_contry' ));?>"  class="form-control padding_10px country_code_res" name="phonecode">
-			</div>
-			<div class="col-sm-7">
-				<input id="mobile_number" class="form-control text-input validate[custom[phone_number],minSize[6],maxSize[15]]" type="text"  name="mobile_number" maxlength="10"
-				value="<?php if($edit){ echo $user_info->mobile_number;}elseif(isset($_POST['mobile_number'])) echo $_POST['mobile_number'];?>">
-			</div>
-		</div>
-		<div class="form-group">
-			<label class="col-sm-2 control-label dob_label_res Alternate_res" for="mobile_number"><?php _e('Alternate Number','school-mgt');?></label>
-			<div class="col-sm-1" style="padding-right:0px;">
-			<input type="text" readonly value="+<?php echo smgt_get_countery_phonecode(get_option( 'smgt_contry' ));?>"  class="form-control padding_10px country_code_res" name="alter_mobile_number">
-			</div>
-			<div class="col-sm-7">
-				<input id="alternet_mobile_number" class="form-control text-input validate[custom[phone_number],minSize[6],maxSize[15]]" type="text"  name="alternet_mobile_number" maxlength="10"
-				value="<?php if($edit){ echo $user_info->alternet_mobile_number;}elseif(isset($_POST['alternet_mobile_number'])) echo $_POST['alternet_mobile_number'];?>">
-			</div>
-		</div>
+    <label class="col-sm-2 control-label" for="mobile_number"><?php _e('Mobile Number', 'school-mgt');?><span class="require-field">*</span></label>
+    <div class="col-sm-1">
+        <select class="form-control" name="phonecode">
+            <?php
+            // Iterate through country codes array to create options
+            foreach ($country_codes as $country => $code) {
+                echo '<option value="' . esc_attr($code) . '">' . esc_html($country) . ' (+' . esc_html($code) . ')</option>';
+            }
+            ?>
+        </select>
+    </div>
+    <div class="col-sm-7">
+        <input id="mobile_number" class="form-control text-input validate[custom[phone_number],minSize[6],maxSize[15]]" type="text"  name="mobile_number"
+        value="<?php if($edit){ echo $user_info->mobile_number;}elseif(isset($_POST['mobile_number'])) echo $_POST['mobile_number'];?>">
+    </div>
+</div>
+
+
+<div class="form-group">
+    <label class="col-sm-2 control-label" for="mobile_number"><?php _e('Alternate Mobile Number', 'school-mgt');?></span></label>
+    <div class="col-sm-1">
+        <select class="form-control" name="phonecode">
+            <?php
+            // Iterate through country codes array to create options
+            foreach ($country_codes as $country => $code) {
+                echo '<option value="' . esc_attr($code) . '">' . esc_html($country) . ' (+' . esc_html($code) . ')</option>';
+            }
+            ?>
+        </select>
+    </div>
+    <div class="col-sm-7">
+        <input id="mobile_number" class="form-control text-input validate[custom[phone_number],minSize[6],maxSize[15]]" type="text"  name="mobile_number"
+        value="<?php if($edit){ echo $user_info->mobile_number;}elseif(isset($_POST['mobile_number'])) echo $_POST['mobile_number'];?>">
+    </div>
+</div>
+
+
 		<div class="form-group">
 			<label class="col-sm-2 control-label " for="phone"><?php _e('Phone','school-mgt');?><span class="require-field">*</span></label>
 			<div class="col-sm-8">
@@ -3093,6 +3135,29 @@ $(document).ready(function(){
     });
 });
 </script>
+<?php
+$country_codes = array(
+    'United States' => '1',
+    'United Kingdom' => '44',
+    'India' => '91',
+    // Add more country codes as needed
+);
+?>
+
+<?php
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Get the selected country code and entered mobile number
+    $phonecode = isset($_POST['phonecode']) ? sanitize_text_field($_POST['phonecode']) : '';
+    $mobile_number = isset($_POST['mobile_number']) ? sanitize_text_field($_POST['mobile_number']) : '';
+
+    // Combine country code and mobile number
+    $full_mobile_number = '+' . $phonecode . $mobile_number;
+
+    // Process the full mobile number as needed
+    // ...
+}
+?>
+
 <script>
 $(document).ready(function(){
     $("#boths").click(function(){
@@ -3387,15 +3452,35 @@ $role='student_temp';
 										<input id="zip_code" class="form-control  validate[required,custom[onlyLetterNumber]]" maxlength="15"   placeholder="<?php _e('Enter Zip Code','school-mgt');?>"  type="text"  name="zip_code">
 									</div>
 								</div>
-								<div class="col-sm-6 col-lg-6 col-md-6 col-xs-12">
-									<label class="col-lg-5 col-md-5 col-sm-5 col-xs-12 control-label" for="mobile_number"><?php _e('Mobile Number','school-mgt');?><span class="require-field">*</span></label>
-									<div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 margin_bottom_5">
-										<input type="text" readonly value="+<?php echo smgt_get_countery_phonecode(get_option( 'smgt_contry' ));?>"  class="form-control padding_10px" name="phonecode">
-									</div>
-									<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
-										<input id="phone" class="form-control validate[required,custom[phone_number],minSize[6],maxSize[15]] text-input padding_10px" placeholder="<?php _e('Enter Mobile Number','school-mgt');?>" type="text"  name="phone" >
-									</div>
-								</div>
+	<div class="col-sm-6 col-lg-6 col-md-6 col-xs-12">
+	<div class="form-group">
+	<div class="form-group">
+    <label class="col-sm-3 control-label" for="mobile_number"><?php _e('Mobile Number', 'school-mgt');?><span class="require-field">*</span></label>
+    <div class="col-sm-3">
+        <select class="form-control" name="phonecode">
+            <?php
+            // Iterate through country codes array to create options
+            foreach ($country_codes as $country => $code) {
+                echo '<option value="' . esc_attr($code) . '">+' . esc_html($code) . ' (' . esc_html($country) . ')</option>';
+            }
+            ?>
+        </select>
+    </div>
+    <div class="col-sm-6">
+        <input id="mobile_number" class="form-control text-input validate[custom[phone_number],minSize[6],maxSize[15]]" type="text"  name="mobile_number"
+        value="<?php if($edit){ echo $user_info->mobile_number;}elseif(isset($_POST['mobile_number'])) echo $_POST['mobile_number'];?>" placeholder="<?php _e('Enter Mobile Number', 'school-mgt'); ?>" type="text" name="phone">
+		
+    </div>
+</div>
+
+</div>
+
+    <!-- <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+        <input id="phone" class="form-control validate[required,custom[phone_number],minSize[6],maxSize[15]] text-input padding_10px" 
+               placeholder="" type="text" name="phone">
+    </div> -->
+</div>
+
 							</div>
 							<div class="form-group">
 								<div class="col-sm-6 col-lg-6 col-md-6 col-xs-12">
@@ -3638,15 +3723,24 @@ $role='student_temp';
 								</div>
 								<div class="row">
 									<div id="fatid6">	
-										<div class="form-group">
-											<label class="control-label  col-md-4 col-sm-4 col-xs-12" for="father_mobile"><?php _e('Mobile No','school-mgt');?></label>
-											<div class="col-md-2 col-sm-2 col-xs-5">
-												<input type="text" readonly value="+<?php echo smgt_get_countery_phonecode(get_option( 'smgt_contry' ));?>"  class="form-control padding_10px" name="phone_code">
-											</div>	
-											<div class="col-md-6 col-sm-6 col-xs-12">
-												<input id="father_mobile" class="form-control text-input validate[custom[phone_number],minSize[6],maxSize[15]]"  placeholder="<?php _e('Enter Mobile No','school-mgt');?>"  type="text"  name="father_mobile">
-											</div>
-										</div>
+									<div class="col-sm-6 col-lg-6 col-md-6 col-xs-12">
+									<label class="col-sm-3 control-label" for="mobile_number"><?php _e('Mobile Number', 'school-mgt');?><span class="require-field">*</span></label>
+    <div class="col-sm-5">
+        <select class="form-control" name="phonecode">
+            <?php
+            // Iterate through country codes array to create options
+            foreach ($country_codes as $country => $code) {
+                echo '<option value="' . esc_attr($code) . '">+' . esc_html($code) . ' (' . esc_html($country) . ')</option>';
+            }
+            ?>
+        </select>
+    </div>
+    <div class="col-lg-10 col-md-5 col-sm-5 col-xs-12">
+        <input id="phone" class="form-control validate[required,custom[phone_number],minSize[6],maxSize[15]] text-input padding_10px" 
+               placeholder="<?php _e('Enter Mobile Number', 'school-mgt'); ?>" type="text" name="phone">
+    </div>
+</div>
+
 									</div>
 								</div>
 								<div class="row">
@@ -3851,15 +3945,25 @@ $role='student_temp';
 								</div>
 								<div class="row">
 									<div id="motid6">	
-										<div class="form-group">
-											<label class="control-label  col-md-4 col-sm-4 col-xs-12" for="father_mobile"><?php _e('Mobile No ','school-mgt');?></label>
-											<div class="col-md-2 col-sm-2 col-xs-5 margin_bottom_5">
-												<input type="text" readonly value="+<?php echo smgt_get_countery_phonecode(get_option( 'smgt_contry' ));?>"  class="form-control padding_10px" name="phone_code">
-											</div>	
-											<div class="col-md-6 col-sm-6 col-xs-12">
-												<input id="mother_mobile" class="form-control text-input validate[custom[phone_number],minSize[6],maxSize[15]]"  placeholder="<?php _e('Enter Mobile No','school-mgt');?>"  type="text"  name="mother_mobile">
-											</div>
-										</div>
+									<div class="col-sm-6 col-lg-6 col-md-6 col-xs-12">
+									<di class="form-group">
+    <label class="col-sm-3 control-label" for="mobile_number"><?php _e('Mobile Number', 'school-mgt');?><span class="require-field">*</span></label>
+    <div class="col-sm-5">
+        <select class="form-control" name="phonecode">
+            <?php
+            // Iterate through country codes array to create options
+            foreach ($country_codes as $country => $code) {
+                echo '<option value="' . esc_attr($code) . '">+' . esc_html($code) . ' (' . esc_html($country) . ')</option>';
+            }
+            ?>
+        </select>
+    </div>
+    <div class="col-lg-10 col-md-5 col-sm-5 col-xs-12">
+        <input id="phone" class="form-control validate[required,custom[phone_number],minSize[6],maxSize[15]] text-input padding_10px" 
+               placeholder="<?php _e('Enter Mobile Number', 'school-mgt'); ?>" type="text" name="phone">
+    </div>
+</div>
+
 									</div>
 								</div>
 								<?php wp_nonce_field( 'save_admission_form' ); ?>
