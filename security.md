@@ -1,21 +1,38 @@
-Reporting a Vulnerability If you have discovered a vulnerability within the project, I sincerely appreciate your efforts in helping me maintain a secure system. I take security concerns seriously and encourage you to report any potential vulnerabilities promptly. This section will guide you on how to report a vulnerability and what you can expect during the process.
 
-Reporting Process To report a vulnerability, please follow these steps:
 
-Create an Issue: Go to the project's GitHub repository and create a new issue. Please provide a clear and concise title that reflects the nature of the vulnerability.
+# **Reporting a Vulnerability** 🛡️
 
-Include Details: In the issue description, please provide me with a detailed explanation of the vulnerability. It would be immensely helpful if you could include steps to reproduce the issue, relevant code snippets, and any additional information that can assist me in understanding and addressing the problem effectively.
+Thank you for your vigilance in helping to maintain the security of this project. I take security concerns seriously and appreciate your efforts in reporting potential vulnerabilities promptly. This section outlines the process for reporting vulnerabilities and what you can expect during the process.
 
-Contact Information: Don't forget to include your contact information (preferably an email address) so that I can reach out to you for further clarification or updates regarding the reported vulnerability.
+### Reporting Process
 
-Response and Update Once you have reported a vulnerability, I will promptly review the issue and respond to you within a reasonable timeframe. I aim to acknowledge the report within 4 business days and provide an initial assessment of the vulnerability's severity.
+To report a vulnerability, please follow these steps:
 
-Vulnerability Assessment After receiving your vulnerability report, I will conduct a thorough assessment to determine its validity and severity. I may request additional information or clarifications from you during this process to ensure a comprehensive evaluation.
+1. **Create an Issue:** Navigate to the project's GitHub repository and create a new issue. Provide a clear and concise title that reflects the nature of the vulnerability.
 
-Acceptance or Decline If the vulnerability is accepted, I will take appropriate measures to address and fix the issue. I will provide you with expected timelines for resolving the vulnerability.
+2. **Include Details:** In the issue description, provide a detailed explanation of the vulnerability. Include steps to reproduce the issue, relevant code snippets, and any additional information that can assist in understanding and addressing the problem effectively.
 
-In case the vulnerability is deemed outside the scope of the project or does not pose a significant risk, it may be declined. I will provide a clear explanation for my decision and any recommended actions, if applicable.
+3. **Contact Information:** Include your contact information (preferably an email address) so that I can reach out for further clarification or updates regarding the reported vulnerability.
 
-Public Disclosure To ensure the safety and security of our users, I kindly request that you refrain from publicly disclosing the vulnerability until I have had sufficient time to address it. I strive to resolve vulnerabilities in a timely manner and appreciate your cooperation in maintaining responsible security practices.
+### Response and Update
 
-Recognition I deeply value the contributions of the security community and I am open to recognizing individuals who responsibly report vulnerabilities. If you would like to be credited for your discovery, please let me know when submitting the report.
+Once a vulnerability is reported, I will review the issue promptly and respond within a reasonable timeframe. My goal is to acknowledge the report within 4 business days and provide an initial assessment of the vulnerability's severity.
+
+### Vulnerability Assessment
+
+After receiving your vulnerability report, I will conduct a thorough assessment to determine its validity and severity. During this process, I may request additional information or clarifications to ensure a comprehensive evaluation.
+
+### Acceptance or Decline
+
+- **Acceptance:** If the vulnerability is accepted, appropriate measures will be taken to address and fix the issue. I will provide you with expected timelines for resolving the vulnerability.
+  
+- **Decline:** If the vulnerability is deemed outside the scope of the project or does not pose a significant risk, it may be declined. I will provide a clear explanation for my decision and any recommended actions, if applicable.
+
+### Public Disclosure
+
+To ensure the safety and security of users, please refrain from publicly disclosing the vulnerability until I have had sufficient time to address it. I strive to resolve vulnerabilities in a timely manner and appreciate your cooperation in maintaining responsible security practices.
+
+### Recognition
+
+I deeply value the contributions of the security community. If you would like to be credited for your discovery, please let me know when submitting the report. Recognition is a small token of appreciation for your responsible reporting.
+
