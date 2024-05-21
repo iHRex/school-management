@@ -144,8 +144,8 @@
 		</h3>
 		<h3 class="dashboard_with_lms_div"><img src="<?php echo SMS_PLUGIN_URL."/assets/images/Thumbnail-img.png"?>" class="wplms_image head_logo" width="40" height="40" />
 		<div class="dashboard_display_inline_css">
-			<div><label class="dashboard_lable1"><a href=" https://profile.hrserv.in/" target="_blank"><?php echo esc_html_e( __( 'Made with love by', 'school-mgt' ) );?></a></label></div>
-			<div><label class="dashboard_lable2"><a href=" https://profile.hrserv.in/" target="_blank"><?php echo esc_html_e( __( 'iHRex, 'school-mgt' ) );?></label></div>		
+			<div><label class="dashboard_lable1"><a href=" https://ihrex.me/" target="_blank"><?php echo esc_html_e( __( 'Made with love by', 'school-mgt' ) );?></a></label></div>
+			<div><label class="dashboard_lable2"><a href=" https://ihrex.me/" target="_blank"><?php echo esc_html_e( __( 'iHRex', 'school-mgt' ) );?></label></div>		
 		</div>
 		</h3>
 	</div>
