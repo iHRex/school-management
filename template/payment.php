@@ -12,6 +12,7 @@ if (isset ( $_REQUEST ['page'] ))
 	{	
 		MJ_smgt_access_right_page_not_access_message();
 		die;
+		
 	}
 	if(!empty($_REQUEST['action']))
 	{
