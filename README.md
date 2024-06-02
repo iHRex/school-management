@@ -67,12 +67,49 @@ Once the School Management System plugin is activated, you can start using its v
 We welcome contributions from the open-source community to enhance and improve the School Management System WordPress plugin. If you'd like to contribute, please follow these guidelines:
 
 1. Fork the repository.
-
-2. Create a new branch for your changes.
-
-3. Make your changes and commit them.
-
-4. Submit a pull request to the main repository.
+2. Clone your forked repository of the project.
+```
+$ git clone https://github.com/<your_username>/repository_name.git
+```
+3. Navigate to the project directory.
+```
+$ cd school-management
+```
+4. Add a reference(remote) to the original repository.
+```
+$ git remote add upstream https://github.com/repository_owner/repository_name.git
+```
+5. Check the remotes for this repository.
+```
+$ git remote -v
+```
+6. Always take a pull from the upstream repository to your main branch to keep it updated as per the main project repository.
+```
+$ git pull upstream main
+```
+7. Create a new branch (prefer a branch name that relates to your assigned issue).
+```
+$ git checkout -b <YOUR_BRANCH_NAME>
+```
+8. After making the required changes. Check your changes.
+```
+$ git status OR git diff
+```
+9. Stage your changes.
+```
+$ git add . <\files_that_you_made_changes>
+```
+10. Commit your changes.
+```
+$ git commit -m "relavant message"
+```
+9. Push the committed changes in your feature branch to your remote repository.
+```
+$ git push -u origin <your_branch_name>
+```
+10. To create a pull request, click on compare and pull request.
+11. Add an appropriate title and description to your PR explaining your changes.
+12. Click on Create pull request.
 
 
 >### Contributors using Visual Studio Code (VS Code)
